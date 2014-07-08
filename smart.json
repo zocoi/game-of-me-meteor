@@ -1,0 +1,7 @@
+{
+  "packages": {
+    "iron-router": {},
+    "moment": {},
+    "bootstrap-3": {}
+  }
+}

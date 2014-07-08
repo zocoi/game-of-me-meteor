@@ -1,0 +1,18 @@
+<template name="MasterLayout">
+  <head>
+    <title>game-of-me</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="login">
+          {{> loginButtons}}
+        </div>
+      </div>
+      <div class="row">
+        {{> yield}}
+      </div>
+    </div>
+  </body>
+</template>
