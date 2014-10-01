@@ -10,4 +10,6 @@ Router.configure
 
 Router.map ->
   @route "home", path: "/"
+  @route "connect", path: "/connect"
+  @route "connectFinish", path: "/connect/finish", where: "server"
   return
