@@ -1,0 +1,16 @@
+{
+  "view": {
+    "html": {
+      "create": true,
+      "extension": ".jade"
+    },
+    "css": {
+      "create": true,
+      "extension": ".scss"
+    },
+    "js": {
+      "create": true,
+      "extension": ".coffee"
+    }
+  }
+}
