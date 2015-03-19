@@ -1,18 +1,16 @@
-class @HomeController extends RouteController
+class @DashboardController extends RouteController
   onRun: ->
     console.log  "Home View"
+    @next()
 
   waitOn: ->
 
   data: ->
 
   onBeforeAction: ->
-    if Meteor.user() || Meteor.loggingIn()
-      Router.go 'connect'
-      pause()
+    @next()
 
   onAfterAction: ->
     # do some stuff after the action is invoked
 
   action: ->
-    

@@ -1,4 +1,3 @@
-
 # MasterLayout: Event Handlers and Helpers
 Template.MasterLayout.events
 # Example:
@@ -16,4 +15,3 @@ Template.MasterLayout.created = ->
 Template.MasterLayout.rendered = ->
 
 Template.MasterLayout.destroyed = ->
-
