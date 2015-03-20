@@ -8,3 +8,5 @@ App.helpers = {}
 _.each App.helpers, (helper, key) ->
   Handlebars.registerHelper key, helper
   return
+
+Meteor.subscribe("userData")

@@ -6,5 +6,6 @@ Router.configure
   notFoundTemplate: "NotFound"
 
 Router.route "/", name: "home"
+Router.route "/dashboard", name: "dashboard"
 Router.route "/connect", name: "connect"
 Router.route "/connect/finish", name: "connectFinish", where: "server"
