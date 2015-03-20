@@ -3,7 +3,7 @@ class @HomeController extends RouteController
     console.log  "Home View"
     @next()
 
-  waitOn: ->
+  subscriptions: ->
 
   data: ->
 
@@ -16,3 +16,4 @@ class @HomeController extends RouteController
     # do some stuff after the action is invoked
 
   action: ->
+
