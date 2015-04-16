@@ -10,8 +10,7 @@ class @ConnectFinishController extends RouteController
     params.clientSecret = AppConfig.humanapi.client_secret
     console.log "params", params
     HTTP.post(
-      'https://user.humanapi.co/v1/connect/tokens', {params: params},
-      (err, resp) =>
+      'https://user.humanapi.co/v1/connect/tokens', {params: params}, (err, resp) =>
         if err
           @response.writeHead(500)
           @response.end(JSON.stringify(err))

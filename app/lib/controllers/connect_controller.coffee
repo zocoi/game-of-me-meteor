@@ -5,8 +5,6 @@ class @ConnectController extends RouteController
 
   onBeforeAction: ->
     currentUser = Meteor.user()
-    if currentUser.humanapi
-      Router.go 'dashboard'
     @next()
 
   waitOn: ->
